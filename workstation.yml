@@ -1,0 +1,12 @@
+---
+hosts: all
+vars:
+    packages: [ 'vim', 'curl', 'wget', 'lxqt', 'flatpak' ]
+# Make sure that it is the most updated package
+- slackpkg:
+    name: {{ packages }}
+    state: latest
+- name: Install multiple packages
+  community.general.flatpak:
+    name:
+      - org.mozilla.firefox
