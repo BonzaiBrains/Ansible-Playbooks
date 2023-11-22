@@ -10,3 +10,4 @@ vars:
   community.general.flatpak:
     name:
       - org.mozilla.firefox
+    state: latest
