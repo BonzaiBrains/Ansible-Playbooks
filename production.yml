@@ -11,3 +11,4 @@ hosting:
     server-devil.{{ domain }}:
     storage-devil.{{ domain }}:
     server-debra.{{ domain }}:
+    printer-debra.{{ domain }}:
