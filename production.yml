@@ -1,0 +1,13 @@
+---
+domain: fritz.box
+
+personal:
+  hosts:
+    workstation-debra.{{ domain }}:
+    laptop-debra.{{ domain }}:
+
+hosting:
+  hosts:
+    server-devil.{{ domain }}:
+    storage-devil.{{ domain }}:
+    server-debra.{{ domain }}:
